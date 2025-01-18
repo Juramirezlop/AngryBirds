@@ -192,8 +192,8 @@ function draw() {
   text(
     `| Birds: ${Nbirds - birdIndex - 1} | Pigs: ${pigs.length} | Points: ${
       (Npigs - pigs.length) * 100
-    }`,
-    150,
+    } |`,
+    160,
     30
   );
 
